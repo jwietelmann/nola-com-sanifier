@@ -11,5 +11,8 @@
   $(window).mousemove(function() {
     $('.adv-open').removeClass('adv-open');
   });
+  
+  // remove urine stains
+  $('#adv-network, #adv-masthead, #adv-condensed, .adv-logo, header, .module-tabs a:link.active, .module-tabs a:visited.active, .module-block, #footer, .river-end, #content header, #news-river .river-promo-inner, .river-feature-box, aside section').css('background-color', '#eee');
 
 }).call(this)
